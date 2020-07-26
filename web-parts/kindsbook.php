@@ -4,7 +4,7 @@
               <div class="kk-kindsbook__main">
               <div class="kk-kindsbook__text1">
               
-                      <p>Dünýa</p><h2><span>kitap</span></h2><p> bilen gyzykly</p>
+                      <p>Dünýa</p><h1><span>kitap</span></h1><p> bilen gyzykly</p>
                 </div>
               <div class="kk-kindsbook__img">
             <img src="img/kids.png" alt="img2" />
@@ -16,19 +16,19 @@
                 <p><span>Erteki</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Erteki</span></p></div></div>
+                <p><span>Hekaýa</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Erteki</span></p></div></div>
+                <p><span>Rowaýatlar</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Erteki</span></p></div></div>
+                <p><span>Okuwa <br>Taýynlyk</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Erteki</span></p></div></div>
+                <p><span>Goşgylar</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Erteki</span></p></div></div>
+                <p><span>Harplyk</span></p></div></div>
               </div>
           </div>
         </div>

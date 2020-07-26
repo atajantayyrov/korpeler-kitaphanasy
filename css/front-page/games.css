@@ -1,0 +1,73 @@
+.kk-games {
+  position: relative;
+  background-image: url(../../img/cubes-colorful.png);
+  height: 600px;
+
+  background-size: cover;
+  overflow: hidden;
+  height: 474px;
+  z-index: 1;
+}
+.kk-container {
+  height: 100%;
+}
+.kk-games__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kk-games__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.kk-games__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.kk-games__text h2 {
+  font-family: "Berkshire Swash", cursive;
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 546px;
+  height: 140px;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.kk-games__text p {
+  color: #ffffff;
+  font-size: 30px;
+  width: 467px;
+  height: 91px;
+  margin: 0;
+}
+.kk-games__katalog {
+  padding: 5px 8px;
+  width: 127px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.kk-games__katalog a {
+  text-decoration: none;
+}
+
+.kk-games__img {
+  margin-top: 64px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  height: 100%;
+}
+.kk-games__img img {
+  width: 568px;
+  height: 381px;
+}

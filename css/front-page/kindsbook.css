@@ -3,16 +3,15 @@
 }
 .kk-container {
   width: 1440px;
+  padding: 0 144px;
 }
 .kk-kindsbook__wrapper {
   display: flex;
-  flex-wrap: wrap;
 }
 .kk-kindsbook__main {
   flex: 0 0 50%;
   max-width: 50%;
   position: relative;
-  text-align: center;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -34,12 +33,12 @@
   margin-top: 0;
   padding: 0;
 }
-.kk-kindsbook__text1 h2 {
+.kk-kindsbook__text1 h1 {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
-.kk-kindsbook__text1 h2 span {
+.kk-kindsbook__text1 h1 span {
   background-color: #fc2f3f;
   width: 141px;
   height: 51px;
