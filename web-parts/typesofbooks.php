@@ -7,6 +7,14 @@
                         <div class="kk-mainslider__book-photo">
                             <img src="img/swipper (3).png" alt="toys">
                         </div>
+                        <div class="kk-mainslider__book-caption">
+                            <a href="#!" class="show-product circle-button">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                            <a href="#!" class="add-to-cart circle-button">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">

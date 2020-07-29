@@ -1,0 +1,13 @@
+.circle-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #002b11;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 5px;
+}

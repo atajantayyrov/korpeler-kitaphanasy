@@ -19,7 +19,7 @@ var mainSlider = new Swiper(".main-slider", {
   loop: true,
   spaceBetween: 12,
   navigation: {
-    nextEl: ".kk-bestsellers__button-next",
-    prevEl: ".kk-bestsellers__button-prev",
+    nextEl: ".kk-mainslider__button-next",
+    prevEl: ".kk-mainslider__button-prev",
   },
 });
