@@ -1,10 +1,8 @@
 .kk-kindsbook {
   padding: 40px 0;
+  padding-bottom: 0;
 }
-.kk-container {
-  width: 1440px;
-  padding: 0 144px;
-}
+
 .kk-kindsbook__wrapper {
   display: flex;
 }
@@ -54,6 +52,10 @@
 .kk-kindsbook__kinds {
   display: flex;
   flex-wrap: wrap;
+  flex: 0 0 50%;
+  max-width: 50%;
+  text-align: center;
+  justify-content: center;
 }
 .kk-kindsbook__items {
   flex: 0 0 calc(50% - 50px);
@@ -61,31 +63,31 @@
   border-radius: 10px;
 }
 .kk-kindsbook__items:nth-child(1) {
-  margin: 8px;
+  margin: 15px;
   background-color: #fa283b;
 }
 .kk-kindsbook__items:nth-child(2) {
-  margin: 8px;
+  margin: 15px;
 
   background-color: #1ebeae;
 }
 .kk-kindsbook__items:nth-child(3) {
-  margin: 8px;
+  margin: 15px;
 
   background-color: #7348eb;
 }
 .kk-kindsbook__items:nth-child(4) {
-  margin: 8px;
+  margin: 15px;
 
   background-color: #f15628;
 }
 .kk-kindsbook__items:nth-child(5) {
-  margin: 8px;
+  margin: 15px;
 
   background-color: #f50057;
 }
 .kk-kindsbook__items:nth-child(6) {
-  margin: 8px;
+  margin: 15px;
 
   background-color: #00b8d4;
 }

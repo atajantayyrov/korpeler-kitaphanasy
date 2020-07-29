@@ -1,10 +1,8 @@
 .kk-advicemenu {
   background-color: #eafffb;
+  height: 100%;
 }
 .kk-advicemenu .kk-container {
-  height: 212px;
-
-  width: 1440px;
 }
 .kk-advicemenu__wrapper {
   display: flex;

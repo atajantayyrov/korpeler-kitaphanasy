@@ -1,16 +1,13 @@
 .kk-games {
   position: relative;
   background-image: url(../../img/cubes-colorful.png);
-  height: 600px;
 
   background-size: cover;
   overflow: hidden;
-  height: 474px;
+  height: 100%;
   z-index: 1;
 }
-.kk-container {
-  height: 100%;
-}
+
 .kk-games__wrapper {
   display: flex;
   flex-wrap: wrap;

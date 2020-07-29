@@ -4,8 +4,7 @@
          <h2> Başga harytlar</h2>
          </div>
           <div class="kk-advantages__wrapper">
-          <div class="kk-advantages__title">
-            </div>  
+           
                 <div class="kk-advantages__item">
                     <div class="kk-advantages__img1">
                     <img  src="img/kid-clothes.png" alt="toys">

@@ -22,7 +22,7 @@
                 <p><span>Rowaýatlar</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Okuwa <br>Taýynlyk</span></p></div></div>
+                <p><span>Okuwa Taýynlyk</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
                 <p><span>Goşgylar</span></p></div></div>
