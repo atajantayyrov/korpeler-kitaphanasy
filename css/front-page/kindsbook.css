@@ -5,6 +5,7 @@
 
 .kk-kindsbook__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 .kk-kindsbook__main {
   flex: 0 0 50%;
@@ -102,4 +103,57 @@
 .kk-kindsbook__text p {
   color: #ffffff;
   font-size: 30px;
+}
+
+@media (max-width: 1199px) {
+  .kk-kindsbook__img img {
+    width: 490px;
+    height: 490px;
+  }
+}
+@media (max-width: 991px) {
+  .kk-kindsbook__main {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .kk-kindsbook__kinds {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .kk-kindsbook__items {
+    flex: 0 0 calc(50% - 50px);
+    max-width: calc(50% - 110px);
+  }
+}
+@media (max-width: 767px) {
+  .kk-kindsbook {
+    padding: 0;
+  }
+  .kk-kindsbook__img img {
+    width: 400px;
+    height: 400px;
+  }
+  .kk-kindsbook__text1 {
+    font-size: 20px;
+  }
+  .kk-kindsbook__items {
+    flex: 0 0 calc(50% - 50px);
+    max-width: calc(50% - 70px);
+  }
+  .kk-kindsbook__text p {
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .kk-kindsbook__img img {
+    width: 300px;
+    height: 300px;
+  }
+  .kk-kindsbook__items {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 30px);
+  }
 }

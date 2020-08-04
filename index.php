@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
     <?php include 'web-parts/header.php'; ?>
     <main class="main">
-    <?php include 'web-parts/typesofbooks.php'; ?>
+      <?php include 'web-parts/mainslider.php'; ?>
       <?php include 'web-parts/kindsbook.php'; ?>
       <?php include 'web-parts/favorites.php'; ?>
       <?php include 'web-parts/bestsellers.php'; ?>

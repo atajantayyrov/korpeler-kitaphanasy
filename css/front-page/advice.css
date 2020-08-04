@@ -1,4 +1,5 @@
 .kk-advice {
+  background-color: #a3cecb;
 }
 .kk-advice .kk-container {
   display: flex;
@@ -12,11 +13,10 @@
 .kk-advice__photo {
   flex: 0 0 50%;
   max-width: 50%;
-  position: absolute;
 }
 .kk-advice__photo img {
-  width: 1424px;
-  height: 728px;
+  width: 100%;
+  height: 100%;
 }
 .kk-advice__item {
   display: flex;
@@ -26,7 +26,7 @@
   max-width: 50%;
   position: relative;
   margin-top: 15px;
-  left: 144px;
+  line-height: 1;
 }
 .kk-advice__item h2 {
   width: 315px;
@@ -61,7 +61,7 @@
   color: #000000;
   font-weight: 700;
 }
-.kk-advice__w p {
+.kk-advice__w {
   font-size: 14px;
   color: #000000;
   margin: 0;
@@ -74,4 +74,45 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px;
+}
+
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  .kk-advice__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .kk-advice__item h2 {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+  .kk-advice__item p {
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .kk-advice__img {
+    justify-content: center;
+  }
+  .kk-advice__photo img {
+    width: 450px;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+  .kk-advice__item h2 {
+    font-size: 40px;
+  }
+  .kk-advice__text h3 {
+    width: 60%;
+  }
+  .kk-advice__photo img {
+    width: 350px;
+  }
+  .kk-advice__img img {
+    padding: 0 10px;
+  }
 }

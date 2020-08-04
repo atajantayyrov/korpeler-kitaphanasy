@@ -1,10 +1,10 @@
 .circle-button {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   background-color: #ffffff;
   color: #002b11;
-  font-size: 20px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;

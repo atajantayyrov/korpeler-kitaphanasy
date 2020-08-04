@@ -6,7 +6,7 @@
           <div class="kk-advantages__wrapper">
            
                 <div class="kk-advantages__item">
-                    <div class="kk-advantages__img1">
+                    <div class="kk-advantages__img">
                     <img  src="img/kid-clothes.png" alt="toys">
                     </div>
                     <div class="kk-advantages__text">
@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="kk-advantages__item">
-                    <div class="kk-advantages__img2">
+                    <div class="kk-advantages__img">
                     <img src="img/toys.png" alt="toys">
                     </div>
                     <div class="kk-advantages__text">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="kk-advantages__item">
-                    <div class="kk-advantages__img3">
+                    <div class="kk-advantages__img">
                     <img  src="img/brushes.png" alt="toys">
                     </div>
                     <div class="kk-advantages__text">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="kk-advantages__item">
-                    <div class="kk-advantages__img4">
+                    <div class="kk-advantages__img">
                     <img src="img/games.png" alt="toys">
                     </div>
                     <div class="kk-advantages__text">

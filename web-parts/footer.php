@@ -14,7 +14,7 @@
                 <p>Oýunjaklar</p>
             </div>
             <div class="kk-footer__text2">
-                <p>Oýunjaklar</p>
+                <p>Ertekiler</p>
                 <p>Okuwa taýynlyk</p>
                 <p>Rowaýatlar</p>
                 <p>Muny bilmek gyzykly</p>

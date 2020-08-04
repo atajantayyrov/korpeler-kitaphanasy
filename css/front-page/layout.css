@@ -3,3 +3,25 @@
   padding: 15px;
   margin: auto;
 }
+
+@media (max-width: 1199px) {
+  .kk-container {
+    width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .kk-container {
+    width: 720px;
+  }
+}
+@media (max-width: 767px) {
+  .kk-container {
+    /* padding: 0 25px; */
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+  .kk-container {
+    width: 100%;
+  }
+}

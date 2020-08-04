@@ -128,3 +128,36 @@
   z-index: 1;
   font-size: 30px;
 }
+
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  .kk-bestsellers .swiper-slide {
+    width: auto !important;
+  }
+  .kk-bestsellers__h2 {
+    font-size: 20px;
+  }
+
+  .kk-bestsellers__book-photo img {
+    padding: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .kk-bestsellers__button-next a {
+    width: 30px;
+    height: 30px;
+  }
+  .kk-bestsellers__button-prev a {
+    width: 30px;
+    height: 30px;
+  }
+  .kk-bestsellers__button-prev i {
+    font-size: 16px;
+  }
+  .kk-bestsellers__button-next i {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+}

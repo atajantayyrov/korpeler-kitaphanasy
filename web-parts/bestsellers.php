@@ -197,10 +197,10 @@
             </div>
                 <!-- Add Arrows -->
             <div class="kk-bestsellers__button-next">
-                <a href="#!">
-                <i class="fas fa-chevron-left"></i></a>
+                <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
             </div>      
-            <div class="kk-bestsellers__button-prev"><a href="#!"><i class="fas fa-chevron-right"></i></a>
+            <div class="kk-bestsellers__button-prev"><a href="#!"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
             </div>
         </div>
       </div>

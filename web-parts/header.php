@@ -15,7 +15,7 @@
                     <nav class="kk-nav" id="kkNav">
                         <ul class="kk-nav__list">
                             <li class="kk-nav__item">
-                                <a href="#!" class="kk-nav__link">Kitalar</a>
+                                <a href="#!" class="kk-nav__link">Kitaplar</a>
                             </li>
                             <li class="kk-nav__item">
                                 <a href="#!" class="kk-nav__link">Oýunjaklar</a>
