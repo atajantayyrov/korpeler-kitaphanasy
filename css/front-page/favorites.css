@@ -85,14 +85,12 @@
   color: #ffffff;
   text-decoration: none;
   position: absolute;
-  top: 50%;
+  top: 142px;
   transform: translateY(-50%);
 
   right: 0;
   z-index: 1;
-}
-.kk-favorites__button-next i {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .kk-favorites__button-prev a {
@@ -106,12 +104,12 @@
   color: #ffffff;
   text-decoration: none;
   position: absolute;
-  top: 50%;
+  top: 142px;
   transform: translateY(-50%);
 
   left: 0;
   z-index: 1;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 @media (max-width: 1199px) {

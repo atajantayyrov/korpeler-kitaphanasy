@@ -51,9 +51,10 @@
   height: 283px;
 }
 .kk-bestsellers__book-title {
-  color: #ffffff;
+  color: #ffffffb8;
   font-size: 20px;
   font-family: "Cairo", sans-serif;
+  font-weight: 100;
 }
 .kk-bestsellers__book-title p {
   margin: 0;
@@ -61,7 +62,7 @@
 }
 
 .kk-bestsellers__book-author {
-  color: #ffffff;
+  color: #ffffffb8;
   font-size: 14px;
   font-family: "Cairo", sans-serif;
 }
@@ -105,12 +106,12 @@
   color: #000000;
   text-decoration: none;
   position: absolute;
-  top: 30%;
+  top: 142px;
   right: 0;
   z-index: 1;
 }
 .kk-bestsellers__button-next i {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .kk-bestsellers__button-prev a {
@@ -124,10 +125,10 @@
   color: #000000;
   text-decoration: none;
   position: absolute;
-  top: 30%;
+  top: 142px;
   left: 0;
   z-index: 1;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 @media (max-width: 1199px) {

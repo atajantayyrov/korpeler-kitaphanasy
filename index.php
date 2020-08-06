@@ -7,11 +7,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" 
-    rel="stylesheet"
-    />
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;900&display=swap" rel="stylesheet"> -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
@@ -20,8 +18,6 @@
     <title>körpejeler-kitaphanasy</title>
   </head>
   <body>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet"> -->
   <?php include 'web-parts/header.php'; ?>
     
     <main class="main">

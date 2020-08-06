@@ -8,10 +8,13 @@
 .kk-advice__photo {
   flex: 0 0 50%;
   max-width: 50%;
+  position: relative;
 }
 .kk-advice__photo img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
 }
 .kk-advice__item {
   display: flex;
@@ -31,11 +34,11 @@
   font-weight: 500;
 }
 .kk-advice__item p {
-  color: #072755;
+  color: #2c2c2c;
   width: 482px;
   padding: 17px 0;
-  line-height: 1.5;
-  font-weight: bold;
+  line-height: 1.3;
+  font-weight: 500;
 }
 .kk-advice__img {
   display: flex;
@@ -52,10 +55,10 @@
 }
 .kk-advice__text p {
   font-family: "Cairo", sans-serif;
-  width: 256px;
+  width: 100%;
   font-size: 20px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 900;
   margin: 0;
   padding: 0;
   padding-bottom: 20px;

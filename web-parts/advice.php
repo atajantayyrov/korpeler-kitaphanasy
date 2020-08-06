@@ -9,7 +9,8 @@
                     <img src="img/kitap1.png" alt="kitap">
                     <div class="kk-advice__text">
 
-                    <p>1000 Развивающих заданий Синего Трактора<span class="kk-advice__w"><br>Андрей Усачев<br></span>20 TMT</p>
+                    <p>1000 Развивающих заданий Синего Трактора
+                        <span class="kk-advice__w"><br>Андрей Усачев<br></span>20 TMT</p>
                     <a href="#!">Sebete Goş</a>
                     </div>
                 </div>
