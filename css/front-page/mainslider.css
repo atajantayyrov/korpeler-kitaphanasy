@@ -1,6 +1,7 @@
 .kk-mainslider {
   overflow: hidden;
   background-color: #e3f2fd;
+  padding: 15px 0;
 }
 .kk-container {
 }
@@ -57,10 +58,11 @@
   color: #ffffff;
   text-decoration: none;
   position: absolute;
-  top: 45%;
+  top: 50%;
   right: 0;
   z-index: 1;
-  font-size: 30px;
+  font-size: 15px;
+  transform: translateY(-50%);
 }
 .add-to-cart {
 }
@@ -75,10 +77,12 @@
   color: #ffffff;
   text-decoration: none;
   position: absolute;
-  top: 45%;
+  top: 50%;
+  transform: translateY(-50%);
+
   left: 0;
   z-index: 1;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 @media (max-width: 1199px) {

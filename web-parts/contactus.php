@@ -27,7 +27,7 @@
                                 <option value="website">Web site</option>
                                 <option value="dizayn">Dizayn</option>
                             </select>
-                            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                           <a href="#!"> <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                         </div>
                     </div>
                     <div class="kk-contactus__col">

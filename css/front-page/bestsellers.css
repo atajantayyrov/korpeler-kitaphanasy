@@ -19,7 +19,7 @@
 
   border-bottom: 1px solid #999898;
   padding-bottom: 10px;
-  font-size: 400;
+  font-weight: 400;
 }
 
 .swiper-container {
@@ -53,14 +53,17 @@
 .kk-bestsellers__book-title {
   color: #ffffff;
   font-size: 20px;
+  font-family: "Cairo", sans-serif;
 }
 .kk-bestsellers__book-title p {
   margin: 0;
+  line-height: 1;
 }
 
 .kk-bestsellers__book-author {
   color: #ffffff;
   font-size: 14px;
+  font-family: "Cairo", sans-serif;
 }
 .kk-bestsellers__book-author p {
   margin: 0;
@@ -70,25 +73,23 @@
   color: #fdc054;
   font-size: 20px;
   font-weight: 700;
+  line-height: 1;
 }
 .kk-bestsellers__book-price p {
   margin: 0;
+  padding-bottom: 4px;
 }
 
 .kk-bestsellers__button {
 }
 .kk-bestsellers__button a {
-  display: -webkit-inline-box;
   border-radius: 4px;
   background-color: #ffffff;
   color: #000000;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  padding: 1px 10px;
 }
 .kk-bestsellers__button-next {
 }
@@ -109,7 +110,7 @@
   z-index: 1;
 }
 .kk-bestsellers__button-next i {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .kk-bestsellers__button-prev a {
@@ -126,7 +127,7 @@
   top: 30%;
   left: 0;
   z-index: 1;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 @media (max-width: 1199px) {

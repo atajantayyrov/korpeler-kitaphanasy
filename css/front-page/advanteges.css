@@ -7,9 +7,11 @@
   color: #5f5f5f;
   font-family: "Berkshire Swash", cursive;
 }
-.kk-advanteges__h2 h2 {
-  border-bottom: 1px solid #5f5f5f;
+.kk-advanteges__h2 p {
+  border-bottom: 2px solid #9998984f;
   padding-bottom: 10px;
+  margin: 15px 0;
+  font-weight: 400;
 }
 .kk-advantages__wrapper {
   display: flex;
@@ -17,8 +19,8 @@
 }
 
 .kk-advantages__item {
-  flex: 0 0 calc(25% - 50px);
-  max-width: calc(25% - 50px);
+  flex: 0 0 calc(25% - 16px);
+  max-width: calc(25% - 16px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +29,7 @@
   border-radius: 10px;
   background-color: #fdc054;
   text-align: center;
-  margin: 16px;
+  margin: 0 8px;
 }
 .kk-advantages__img {
 }
@@ -35,21 +37,7 @@
   width: 179px;
   height: 256;
 }
-/* .kk-advantages__img2 img {
-  width: 246px;
-  height: 219px;
-  margin-top: 40px;
-}
-.kk-advantages__img3 img {
-  width: 181px;
-  height: 191px;
-  margin-top: 70px;
-}
-.kk-advantages__img4 img {
-  width: 220px;
-  height: 211px;
-  margin-top: 40px;
-} */
+
 .kk-advantages__text {
   color: #ffffff;
   font-size: 30px;
@@ -57,6 +45,7 @@
 .kk-advantages__text p {
   margin: 0;
   padding: 10px 0;
+  font-weight: bold;
 }
 
 @media (max-width: 1199px) {

@@ -1,11 +1,6 @@
 .kk-advice {
   background-color: #a3cecb;
 }
-.kk-advice .kk-container {
-  display: flex;
-  height: 100%;
-  padding: 0;
-}
 .kk-advice__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -25,55 +20,61 @@
   flex: 0 0 50%;
   max-width: 50%;
   position: relative;
-  margin-top: 15px;
   line-height: 1;
 }
 .kk-advice__item h2 {
-  width: 315px;
-  height: 140px;
   font-size: 60px;
   color: #072755;
   margin-bottom: 0;
   font-family: "Berkshire Swash", cursive;
+
+  font-weight: 500;
 }
 .kk-advice__item p {
   color: #072755;
   width: 482px;
-  margin: 42px 0;
+  padding: 17px 0;
+  line-height: 1.5;
+  font-weight: bold;
 }
 .kk-advice__img {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .kk-advice__img img {
-  margin-top: 5px;
   width: 165px;
   height: 219px;
 }
 .kk-advice__text {
   text-align: left;
   margin-left: 19px;
-  margin-bottom: 20px;
+  padding-top: 50px;
 }
-.kk-advice__text h3 {
+.kk-advice__text p {
+  font-family: "Cairo", sans-serif;
   width: 256px;
   font-size: 20px;
   color: #000000;
-  font-weight: 700;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  line-height: 1;
 }
 .kk-advice__w {
   font-size: 14px;
   color: #000000;
   margin: 0;
+  font-weight: 300;
 }
 .kk-advice__text a {
   border-radius: 4px;
   background-color: #002b11;
-  color: #ffffff;
+  color: #ffffff73;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px;
+  padding: 1px 10px;
 }
 
 @media (max-width: 1199px) {

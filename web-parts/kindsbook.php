@@ -4,7 +4,7 @@
               <div class="kk-kindsbook__main">
               <div class="kk-kindsbook__text1">
               
-                      <p>Dünýa</p><h1><span>kitap</span></h1><p> bilen gyzykly</p>
+                      <p class="kk-kindsbook__top">Dünýa</p><h1>kitap</h1><p class="kk-kindsbook__bottom"> bilen gyzykly</p>
                 </div>
               <div class="kk-kindsbook__img">
             <img src="img/kids.png" alt="img2" />
@@ -22,7 +22,7 @@
                 <p><span>Rowaýatlar</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
-                <p><span>Okuwa Taýynlyk</span></p></div></div>
+                <p><span>Okuwa <br>Taýynlyk</span></p></div></div>
                 <div class="kk-kindsbook__items">
               <div class="kk-kindsbook__text">
                 <p><span>Goşgylar</span></p></div></div>

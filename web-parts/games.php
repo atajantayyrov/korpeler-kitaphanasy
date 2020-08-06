@@ -1,7 +1,7 @@
 <section class="kk-games">
         <div class="kk-container kk-games__wrapper">
           <div class="kk-games__text">
-            <h2>Zehin özgerdýän oýunlar</h2>
+            <h3>Zehin özgerdýän oýunlar</h3>
             <p>Howlugyň, diňe sanalgyja galan oýunlar bilen körpeleri begendiriň  
             </p>
             <div class="kk-games__katalog">

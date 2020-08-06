@@ -7,15 +7,15 @@
 .kk-advicemenu__wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding: 20px 0 40px 0;
 }
 
 .kk-advicemenu__wrapper p {
   border: 2px solid #002b11;
   color: #002b11;
-  padding: 10px 30px;
+  padding: 0 24px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
   margin: 0;
   margin-right: 20px;
   margin-top: 20px;

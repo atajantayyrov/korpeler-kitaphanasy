@@ -1,7 +1,7 @@
 <section class="kk-advantages">
         <div class="kk-container"> 
             <div class="kk-advanteges__h2">
-         <h2> Başga harytlar</h2>
+         <p> Başga harytlar</p>
          </div>
           <div class="kk-advantages__wrapper">
            
@@ -26,7 +26,7 @@
                     <img  src="img/brushes.png" alt="toys">
                     </div>
                     <div class="kk-advantages__text">
-                    <p>Döredijilikr</p>
+                    <p>Döredijilik</p>
                     </div>
                 </div>
                 <div class="kk-advantages__item">

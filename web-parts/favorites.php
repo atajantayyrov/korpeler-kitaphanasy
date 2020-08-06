@@ -3,7 +3,7 @@
   <section class="kk-favorites">
       <div class="kk-container">
           <div class="kk-favorites__h2">
-          <h2>Iň halananlar</h2></div>
+          <p>Iň halananlar</p></div>
         <div class="swiper-container kk-favorites">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">

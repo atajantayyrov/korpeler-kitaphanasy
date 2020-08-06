@@ -19,28 +19,31 @@
 }
 .kk-kindsbook__text1 {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 20px;
   font-size: 40px;
   color: #ffffff;
   font-weight: 700;
+  line-height: 1;
 }
-.kk-kindsbook__text1 p {
+.kk-kindsbook__top {
   margin: 0;
   padding: 0;
 }
-.kk-kindsbook__text1 p p {
-  margin-top: 0;
-  padding: 0;
+.kk-kindsbook__bottom {
+  margin: 0;
+  padding-bottom: 20px;
 }
 .kk-kindsbook__text1 h1 {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-}
-.kk-kindsbook__text1 h1 span {
+  font-size: 50px;
   background-color: #fc2f3f;
   width: 141px;
-  height: 51px;
+  height: auto;
 }
 
 .kk-kindsbook__img {
@@ -57,52 +60,46 @@
   max-width: 50%;
   text-align: center;
   justify-content: center;
+  margin-top: -8px;
 }
 .kk-kindsbook__items {
-  flex: 0 0 calc(50% - 50px);
-  max-width: calc(50% - 50px);
+  flex: 0 0 calc(50% - 16px);
+  max-width: calc(50% - 16px);
   border-radius: 10px;
+  margin: 8px;
 }
 .kk-kindsbook__items:nth-child(1) {
-  margin: 15px;
   background-color: #fa283b;
 }
 .kk-kindsbook__items:nth-child(2) {
-  margin: 15px;
-
   background-color: #1ebeae;
 }
 .kk-kindsbook__items:nth-child(3) {
-  margin: 15px;
-
   background-color: #7348eb;
 }
 .kk-kindsbook__items:nth-child(4) {
-  margin: 15px;
-
   background-color: #f15628;
 }
 .kk-kindsbook__items:nth-child(5) {
-  margin: 15px;
-
   background-color: #f50057;
 }
 .kk-kindsbook__items:nth-child(6) {
-  margin: 15px;
-
   background-color: #00b8d4;
 }
 .kk-kindsbook__text {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 176px;
+  width: 100%;
   text-align: center;
 }
 
 .kk-kindsbook__text p {
   color: #ffffff;
   font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
 }
 
 @media (max-width: 1199px) {

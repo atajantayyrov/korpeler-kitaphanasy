@@ -11,14 +11,19 @@
     href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" 
     rel="stylesheet"
     />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;900&display=swap" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/logo_H8J_icon.ico" type="image/x-icon" />
     <title>körpejeler-kitaphanasy</title>
   </head>
   <body>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap" rel="stylesheet">
-    <?php include 'web-parts/header.php'; ?>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet"> -->
+  <?php include 'web-parts/header.php'; ?>
+    
     <main class="main">
       <?php include 'web-parts/mainslider.php'; ?>
       <?php include 'web-parts/kindsbook.php'; ?>

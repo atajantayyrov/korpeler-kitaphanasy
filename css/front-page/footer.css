@@ -1,5 +1,6 @@
 .kk-footer {
   background-color: #5f5f5f;
+
   padding: 70px 0;
 }
 
@@ -8,8 +9,10 @@
   flex-wrap: wrap;
   height: 100%;
 }
+
 .kk-footer__logo {
   flex: 0 0 25%;
+  z-index: 5;
   max-width: 25%;
   display: flex;
   flex-direction: column;
@@ -20,17 +23,20 @@
 .kk-footer__logo img {
   width: 266px;
   height: 158px;
+  padding-bottom: 20px;
 }
 .kk-footer__logo p {
   text-transform: uppercase;
-
+  line-height: 1;
   margin: 0em;
   color: #ffffff;
   font-size: 34px;
+  font-weight: bold;
 }
 .kk-footer__logo h2 {
   text-transform: uppercase;
   margin: 0;
+  line-height: 1;
   font-size: 43px;
   color: #ffffff;
 }
@@ -84,7 +90,7 @@
   margin: 5px 10px;
   text-align: center;
   font-size: 31px;
-  color: #222222;
+  color: #5f5f5f;
   width: 62px;
   height: 62px;
   border-radius: 100%;

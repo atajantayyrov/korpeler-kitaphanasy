@@ -9,8 +9,8 @@
   color: #5f5f5f;
   font-family: "Berkshire Swash", cursive;
 }
-.kk-favorites__h2 h2 {
-  border-bottom: 1px solid #5f5f5f;
+.kk-favorites__h2 p {
+  border-bottom: 1px solid #999898;
   padding-bottom: 10px;
 }
 
@@ -36,6 +36,7 @@
   font-size: 20px;
 }
 .kk-favorites__book-title p {
+  line-height: 1;
   margin: 0;
 }
 
@@ -51,25 +52,24 @@
   color: #fa283b;
   font-size: 20px;
   font-weight: 700;
+  line-height: 1;
 }
 .kk-favorites__book-price p {
   margin: 0;
+  padding-bottom: 4px;
+  font-weight: bold;
 }
 
 .kk-favorites__button {
 }
 .kk-favorites__button a {
-  display: -webkit-inline-box;
   border-radius: 4px;
   background-color: #002b11;
-  color: #ffffff;
+  color: #ffffff73;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 10px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  padding: 1px 10px;
 }
 .kk-favorites__button-next {
 }
@@ -85,12 +85,14 @@
   color: #ffffff;
   text-decoration: none;
   position: absolute;
-  top: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+
   right: 0;
   z-index: 1;
 }
 .kk-favorites__button-next i {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .kk-favorites__button-prev a {
@@ -104,10 +106,12 @@
   color: #ffffff;
   text-decoration: none;
   position: absolute;
-  top: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+
   left: 0;
   z-index: 1;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 @media (max-width: 1199px) {
