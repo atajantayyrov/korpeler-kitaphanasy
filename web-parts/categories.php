@@ -1,34 +1,47 @@
-<section class="kk-kindsbook">
+<section class="kk-categories">
         <div class="kk-container">
-          <div class="kk-kindsbook__wrapper">
-              <div class="kk-kindsbook__main">
-              <div class="kk-kindsbook__text1">
-              
-                      <p class="kk-kindsbook__top">Dünýa</p><h1>kitap</h1><p class="kk-kindsbook__bottom"> bilen gyzykly</p>
+          <div class="kk-categories__wrapper">
+              <div class="kk-categories__main">
+                <div class="kk-categories__main-text">
+                  <span class="kk-categories__main-text-1">Dünýa</span>
+                  <span class="kk-categories__main-text-2">kitap</span>
+                  <span class="kk-categories__main-text-3"> bilen gyzykly</span>
                 </div>
-              <div class="kk-kindsbook__img">
-            <img src="img/kids.png" alt="img2" />
+                <div class="kk-categories__img">
+                  <img src="img/kids.png" alt="img2" />
                 </div>
               </div>
-              <div class="kk-kindsbook__kinds">
-              <div class="kk-kindsbook__items">
-              <div class="kk-kindsbook__text">
-                <p><span>Erteki</span></p></div></div>
-                <div class="kk-kindsbook__items">
-              <div class="kk-kindsbook__text">
-                <p><span>Hekaýa</span></p></div></div>
-                <div class="kk-kindsbook__items">
-              <div class="kk-kindsbook__text">
-                <p><span>Rowaýatlar</span></p></div></div>
-                <div class="kk-kindsbook__items">
-              <div class="kk-kindsbook__text">
-                <p><span>Okuwa <br>Taýynlyk</span></p></div></div>
-                <div class="kk-kindsbook__items">
-              <div class="kk-kindsbook__text">
-                <p><span>Goşgylar</span></p></div></div>
-                <div class="kk-kindsbook__items">
-              <div class="kk-kindsbook__text">
-                <p><span>Harplyk</span></p></div></div>
+              <div class="kk-categories__items">
+                <div class="kk-categories__item">
+                  <a href="#!" class="kk-categories__link">
+                    <span>Erteki</span>
+                  </a>
+                </div>
+                <div class="kk-categories__item">
+                  <a href="#!" class="kk-categories__link">
+                    <span>Hekaýa</span>
+                  </a>
+                </div>
+                <div class="kk-categories__item">
+                  <a href="#!" class="kk-categories__link">
+                    <span>Rowaýatlar</span>
+                  </a>
+                </div>
+                <div class="kk-categories__item">
+                  <a href="#!" class="kk-categories__link">
+                    <span>Okuwa <br>Taýynlyk</span>
+                  </a>
+                </div>
+                <div class="kk-categories__item">
+                  <a href="#!" class="kk-categories__link">
+                    <span>Goşgylar</span>
+                  </a>
+                </div>
+                <div class="kk-categories__item">
+                  <a href="#!" class="kk-categories__link">
+                    <span>Harplyk</span>
+                  </a>
+                </div>
               </div>
           </div>
         </div>
