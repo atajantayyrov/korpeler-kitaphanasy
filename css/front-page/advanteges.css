@@ -57,6 +57,10 @@
   .kk-advantages__item {
     flex: 0 0 calc(50% - 50px);
     max-width: calc(50% - 50px);
+    margin-bottom: 16px;
+  }
+  .kk-advantages__wrapper {
+    justify-content: center;
   }
 }
 @media (max-width: 767px) {
@@ -66,9 +70,7 @@
   .kk-advanteges__h2 h2 {
     margin: 10px;
   }
-  .kk-advantages__wrapper {
-    justify-content: center;
-  }
+
   .kk-advantages__item {
     margin: 10px;
   }

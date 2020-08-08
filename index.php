@@ -18,7 +18,7 @@
     <title>körpejeler-kitaphanasy</title>
   </head>
   <body>
-  <?php include 'web-parts/header.php'; ?>
+  <!-- <?php include 'web-parts/header.php'; ?> -->
     
     <main class="main">
       <?php include 'web-parts/mainslider.php'; ?>
