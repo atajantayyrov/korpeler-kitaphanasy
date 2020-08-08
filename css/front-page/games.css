@@ -28,6 +28,8 @@
   flex-direction: column;
   justify-content: center;
   line-height: 1;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 .kk-games__text h3 {
   font-family: "Berkshire Swash", cursive;
@@ -63,52 +65,53 @@
 
 .kk-games__img {
   margin-top: 64px;
-
+  flex: 0 0 50%;
+  max-width: 50%;
   height: 100%;
 }
 .kk-games__img img {
-  width: 568px;
+  width: auto;
   height: 381px;
 }
 
 @media (max-width: 1199px) {
-  .kk-games__img img {
-    width: 378px;
-    height: auto;
-  }
-  .kk-games__text h2 {
-    margin: 0;
-    font-size: 40px;
-    width: 80%;
-    height: 110px;
-  }
 }
 @media (max-width: 991px) {
-  .kk-games__wrapper {
-    justify-content: center;
+  .kk-games__text {
+    flex: 0 0 100%;
+    max-width: 100%;
     text-align: center;
+    align-items: center;
   }
-  .kk-games__text h2 {
+  .kk-games__img {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+  .kk-games__text h3 {
     width: 100%;
-    height: 70px;
   }
-  .kk-games__katalog {
-    margin: auto;
+  .kk-games__text p {
+    width: 100%;
+  }
+  .kk-games {
+    padding: 20px 0;
   }
 }
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
-  .kk-games__text h2 {
+  .kk-games__text h3 {
     font-size: 30px;
   }
   .kk-games__text p {
-    color: #ffffff;
     font-size: 20px;
-    width: 347px;
-    height: 91px;
+    height: auto;
+    padding-bottom: 20px;
   }
   .kk-games__img img {
-    width: 318px;
+    height: 191px;
   }
 }
