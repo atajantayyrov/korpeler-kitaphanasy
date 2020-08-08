@@ -115,6 +115,9 @@
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
+  /* .kk-mainslider .swiper-slide {
+    width: 0% !important;
+  } */
 }
 @media (max-width: 575px) {
   .kk-mainslider__button-next a {

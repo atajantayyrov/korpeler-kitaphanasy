@@ -39,7 +39,7 @@ var bestsellersSlider = new Swiper(".kk-bestsellers__slider", {
 });
 
 var mainSlider = new Swiper(".main-slider", {
-  slidesPerView: "auto",
+  slidesPerView: "2",
   spaceBetween: 12,
   loop: true,
   spaceBetween: 12,
@@ -60,8 +60,9 @@ var mainSlider = new Swiper(".main-slider", {
       slidesPerView: 3,
     },
     // when window width is >= 640px
-    640: {
-      slidesPerView: 4,
+    767: {
+      // slidesPerView: 4,
+      slidesPerView: "auto",
     },
   },
 });
