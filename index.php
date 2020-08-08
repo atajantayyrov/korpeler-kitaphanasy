@@ -15,10 +15,10 @@
   <?php include 'web-parts/header.php'; ?>
     <main class="main">
       <?php include 'web-parts/mainslider.php'; ?>
-      <?php include 'web-parts/categories.php'; ?>
+      <?php include 'web-parts/book-categories.php'; ?>
       <?php include 'web-parts/favorites.php'; ?>
       <?php include 'web-parts/bestsellers.php'; ?>
-      <?php include 'web-parts/advanteges.php'; ?>
+      <?php include 'web-parts/categories.php'; ?>
       <?php include 'web-parts/advice.php'; ?>
       <?php include 'web-parts/advicemenu.php'; ?>
       <?php include 'web-parts/mainbook.php'; ?>
