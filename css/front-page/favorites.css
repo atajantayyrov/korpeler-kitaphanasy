@@ -1,3 +1,5 @@
+
+
 .kk-favorites {
   height: 100%;
   padding-bottom: 37px;
@@ -21,7 +23,12 @@
 .swiper-slide {
 }
 .kk-favorites__book {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
   position: relative;
@@ -87,8 +94,14 @@
 }
 
 .kk-favorites__button-next a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-color: #002b11;
   border-radius: 100%;
@@ -98,6 +111,8 @@
   text-decoration: none;
   position: absolute;
   top: 142px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 
   right: 0;
@@ -106,8 +121,14 @@
 }
 
 .kk-favorites__button-prev a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-color: #002b11;
   border-radius: 100%;
@@ -117,6 +138,8 @@
   text-decoration: none;
   position: absolute;
   top: 142px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 
   left: 0;

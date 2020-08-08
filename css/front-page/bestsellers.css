@@ -1,3 +1,5 @@
+
+
 .kk-bestsellers {
   height: 100%;
   position: relative;
@@ -29,7 +31,12 @@
 .swiper-slide {
 }
 .kk-bestsellers__book {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
   position: relative;
@@ -108,8 +115,14 @@
 }
 
 .kk-bestsellers__button-next a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-color: #ffffff;
   border-radius: 100%;
@@ -127,8 +140,14 @@
 }
 
 .kk-bestsellers__button-prev a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-color: #ffffff;
   border-radius: 100%;

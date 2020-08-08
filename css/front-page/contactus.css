@@ -1,14 +1,23 @@
+
+
 .kk-contactus {
   padding: 60px 0;
 }
 
 .kk-contactus__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: 0 -16px;
 }
 .kk-contactus__col {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
   padding: 0 16px;
@@ -125,6 +134,8 @@
 }
 @media (max-width: 991px) {
   .kk-contactus__col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0;

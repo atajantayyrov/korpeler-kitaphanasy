@@ -5,7 +5,10 @@
 .kk-advicemenu .kk-container {
 }
 .kk-advicemenu__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 20px 0 40px 0;
 }
@@ -27,6 +30,8 @@
 }
 @media (max-width: 767px) {
   .kk-advicemenu__wrapper {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 }
