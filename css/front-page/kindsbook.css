@@ -136,32 +136,21 @@
   }
 }
 @media (max-width: 767px) {
-  /* .kk-kindsbook {
-    padding: 0;
-  }
-  .kk-kindsbook__img img {
-    width: 400px;
-    height: 400px;
-  }
-  .kk-kindsbook__text1 {
-    font-size: 20px;
-  }
-  .kk-kindsbook__items {
-    flex: 0 0 calc(50% - 50px);
-    max-width: calc(50% - 70px);
-  }
-  .kk-kindsbook__text p {
-    color: #ffffff;
-    font-size: 20px;
-  } */
 }
 @media (max-width: 575px) {
-  /* .kk-kindsbook__img img {
-    width: 300px;
-    height: 300px;
+  .kk-kindsbook__text1 h1 {
+    font-size: 40px;
   }
-  .kk-kindsbook__items {
-    flex: 0 0 calc(50% - 20px);
-    max-width: calc(50% - 30px);
-  } */
+  .kk-kindsbook__text1 {
+    font-size: 30px;
+  }
+  .kk-kindsbook__text p {
+    font-size: 20px;
+  }
+  .kk-kindsbook__text {
+    height: 126px;
+  }
+  .kk-kindsbook__img {
+    height: 360px;
+  }
 }

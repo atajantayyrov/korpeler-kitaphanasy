@@ -9,6 +9,7 @@
   flex: 0 0 50%;
   max-width: 50%;
   position: relative;
+  display: flex;
 }
 .kk-advice__photo img {
   width: 100%;
@@ -83,40 +84,39 @@
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
+  .kk-advice__photo {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .kk-advice__item {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .kk-advice__item h2 {
-    width: 100%;
-    text-align: center;
-    height: auto;
+  .kk-advice__photo img {
+    position: relative;
   }
   .kk-advice__item p {
-    padding: 0 10px;
     width: 100%;
-    text-align: center;
-  }
-  .kk-advice__img {
-    justify-content: center;
-  }
-  .kk-advice__photo img {
-    width: 450px;
   }
 }
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
+  .kk-advice__text {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .kk-advice__item p {
+    text-align: center;
+  }
+  .kk-advice__item {
+    text-align: center;
+  }
   .kk-advice__item h2 {
     font-size: 40px;
   }
-  .kk-advice__text h3 {
-    width: 60%;
-  }
-  .kk-advice__photo img {
-    width: 350px;
-  }
-  .kk-advice__img img {
-    padding: 0 10px;
+  .kk-advice__img {
+    flex-direction: column;
   }
 }
