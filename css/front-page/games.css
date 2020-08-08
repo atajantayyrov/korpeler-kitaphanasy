@@ -70,7 +70,7 @@
   height: 100%;
 }
 .kk-games__img img {
-  width: 100%;
+  width: auto;
   height: 381px;
 }
 
@@ -86,9 +86,9 @@
   .kk-games__img {
     flex: 0 0 100%;
     max-width: 100%;
+
     display: flex;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
   }
   .kk-games__text h3 {
     width: 100%;
@@ -96,8 +96,22 @@
   .kk-games__text p {
     width: 100%;
   }
+  .kk-games {
+    padding: 20px 0;
+  }
 }
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
+  .kk-games__text h3 {
+    font-size: 30px;
+  }
+  .kk-games__text p {
+    font-size: 20px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .kk-games__img img {
+    height: 191px;
+  }
 }
