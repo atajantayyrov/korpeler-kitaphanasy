@@ -69,6 +69,10 @@
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
+  .kk-mainbook__wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
   .kk-mainbook__img {
     display: flex;
     align-items: center;
@@ -77,11 +81,27 @@
   }
   .kk-mainbook__text {
     text-align: center;
-
+    align-items: center;
     padding-left: 0;
   }
 }
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
+  .kk-mainbook {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .kk-mainbook__h2 p {
+    margin-bottom: 0;
+  }
+  .kk-mainbook__text h3 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .kk-mainbook__text {
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
