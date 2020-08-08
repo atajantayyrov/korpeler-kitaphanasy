@@ -1,14 +1,10 @@
 @import url(../css/common/buttons.css);
-
 @import url(../css/front-page/layout.css);
-
 @import url(../css/front-page/header.css);
 @import url(../css/front-page/mainslider.css);
-
-@import url(../css/front-page/kindsbook.css);
+@import url(../css/front-page/categories.css);
 @import url(../css/front-page/favorites.css);
 @import url(../css/front-page/bestsellers.css);
-
 @import url(../css/front-page/advanteges.css);
 @import url(../css/front-page/advice.css);
 @import url(../css/front-page/advicemenu.css);
