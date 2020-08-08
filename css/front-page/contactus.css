@@ -122,46 +122,74 @@
 }
 
 @media (max-width: 1199px) {
-  .contactus-form__submit {
-    font-size: 30px;
-  }
 }
 @media (max-width: 991px) {
-  .kk-contactus__title h2 {
-    font-size: 40px;
-    padding-bottom: 0;
-  }
-  .contactus-form__select-with-button i {
-    font-size: 30px;
-  }
-  .contactus-form__select {
-    font-size: 12px;
-  }
-  .contactus-form__submit {
-    font-size: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .contactus-form {
-    width: 100%;
-    margin: auto;
-  }
-  .kk-contactus {
+  .kk-contactus__col {
+    flex: 0 0 100%;
+    max-width: 100%;
     padding: 0;
   }
 }
-@media (max-width: 575px) {
-  .contactus-form__submit {
-    margin-top: 70px;
+@media (max-width: 767px) {
+  .kk-contactus__title p {
+    padding-bottom: 0;
   }
-  /* .kk-contactus__row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-  .kk-contactus__col {
-    flex: 0 0 70%;
-    max-width: 80%;
+  .kk-contactus {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 575px) {
+  .kk-contactus__title h2 {
+    font-size: 30px;
+  }
+  .kk-contactus__title p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .contactus-form__input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #2c2c2c;
+  }
+
+  .contactus-form__input::-moz-placeholder {
+    font-size: 14px;
+    color: #2c2c2c;
+  }
+
+  .contactus-form__input:-ms-input-placeholder {
+    font-size: 14px;
+    color: #2c2c2c;
+  }
+
+  .contactus-form__input::-ms-input-placeholder {
+    font-size: 14px;
+    color: #2c2c2c;
+  }
+
+  .contactus-form__input::placeholder {
+    font-size: 14px;
+    color: #2c2c2c;
+  }
+  .contactus-form__select-with-button a {
+    font-size: 14px;
+    width: 27px;
+    height: 27px;
+    top: 9px;
+    right: 4px;
+  }
+
+  element.style {
+  }
+  .contactus-form__select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+  .contactus-form__select,
+  .contactus-form__input {
+    font-size: 14px;
+  }
+  .contactus-form__submit {
+    height: 42px;
+    font-size: 20px;
   }
 }
