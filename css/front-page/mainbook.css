@@ -69,26 +69,19 @@
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
-}
-@media (max-width: 767px) {
-  .kk-mainbook__wrapper {
-    flex-wrap: wrap;
-
-    justify-content: center;
+  .kk-mainbook__img {
+    display: flex;
+    align-items: center;
+    flex: 0 0 25%;
+    max-width: 50%;
   }
   .kk-mainbook__text {
-    align-items: center;
-    margin: auto;
-  }
-  .kk-mainbook__text p {
     text-align: center;
+
+    padding-left: 0;
   }
-  .kk-mainbook__h2 p {
-    margin: 0;
-  }
-  .kk-mainbook__h2 {
-    margin-bottom: 20px;
-  }
+}
+@media (max-width: 767px) {
 }
 @media (max-width: 575px) {
 }

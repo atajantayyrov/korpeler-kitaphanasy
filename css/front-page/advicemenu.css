@@ -26,6 +26,14 @@
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
+  .kk-advicemenu__wrapper {
+    justify-content: center;
+  }
 }
 @media (max-width: 575px) {
+  .kk-advicemenu__wrapper p {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
 }
