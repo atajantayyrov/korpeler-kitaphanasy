@@ -98,6 +98,11 @@
   max-width: calc(50% - 16px);
   border-radius: 10px;
   margin: 8px;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
 }
 .kk-categories__item:nth-child(1) {
   background-color: #fa283b;
@@ -116,6 +121,9 @@
 }
 .kk-categories__item:nth-child(6) {
   background-color: #00b8d4;
+}
+.kk-categories__item:hover {
+  background-color: #f6ae40;
 }
 .kk-categories__link {
   display: -webkit-box;
@@ -137,6 +145,18 @@
   font-size: 30px;
   line-height: 1;
   font-weight: 600;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+.kk-categories__link:hover span {
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
 }
 @media (max-width: 1199px) {
 }
