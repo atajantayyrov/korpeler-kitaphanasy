@@ -12,6 +12,9 @@
                     </a>
                 </div>
             </div>
+            <a href="#!" class="kk-mobile-button" id="mobileButton">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
             <nav class="kk-nav" id="kkNav">
                 <ul class="kk-nav__list">
                     <li class="kk-nav__item">
@@ -35,6 +38,9 @@
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </a>
                     </li>
+                    <li class="kk-nav__item kk-nav_close"><a href="#!" class="kk-nav__link" id="closeNav">
+               <i class="fa fa-times" aria-hidden="true"></i>
+              </a></li>
                 </ul>
             </nav>
         </div>

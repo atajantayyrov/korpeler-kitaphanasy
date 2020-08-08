@@ -66,3 +66,10 @@ var mainSlider = new Swiper(".main-slider", {
     },
   },
 });
+
+document.getElementById("mobileButton").onclick = function () {
+  document.getElementById("kkNav").classList.add("active");
+};
+document.getElementById("closeNav").onclick = function () {
+  document.getElementById("kkNav").classList.remove("active");
+};
