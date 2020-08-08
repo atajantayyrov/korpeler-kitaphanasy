@@ -152,7 +152,7 @@
     height: 42px;
   }
   .kk-footer {
-    padding: 0;
+    padding: 20px 0;
   }
   .kk-footer__logo {
     flex: 0 0 100%;
@@ -180,5 +180,11 @@
 @media (max-width: 575px) {
   .kk-footer__icon a {
     margin: 5px 10px;
+  }
+  .kk-footer__text p {
+    font-size: 14px;
+  }
+  .kk-footer__text2 p {
+    font-size: 14px;
   }
 }
