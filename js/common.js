@@ -1,5 +1,7 @@
-var favoritesSlider = new Swiper(".kk-favorites", {
+var favoritesSlider = new Swiper(".kk-favorites__slider", {
   slidesPerView: 4,
+  spaceBetween: 16,
+
   navigation: {
     nextEl: ".kk-favorites__button-next",
     prevEl: ".kk-favorites__button-prev",
@@ -11,24 +13,21 @@ var favoritesSlider = new Swiper(".kk-favorites", {
     // when window width is >= 320px
     320: {
       slidesPerView: 2,
-      spaceBetween: 20,
     },
     // when window width is >= 480px
     480: {
       slidesPerView: 3,
-      spaceBetween: 30,
     },
     // when window width is >= 640px
-    640: {
+    767: {
       slidesPerView: 4,
-      spaceBetween: 40,
     },
   },
 });
 
 var bestsellersSlider = new Swiper(".kk-bestsellers__slider", {
   slidesPerView: 4,
-  spaceBetween: 20,
+  spaceBetween: 16,
   navigation: {
     nextEl: ".kk-bestsellers__button-next",
     prevEl: ".kk-bestsellers__button-prev",
@@ -40,17 +39,14 @@ var bestsellersSlider = new Swiper(".kk-bestsellers__slider", {
     // when window width is >= 320px
     320: {
       slidesPerView: 2,
-      spaceBetween: 20,
     },
     // when window width is >= 480px
     480: {
       slidesPerView: 3,
-      spaceBetween: 30,
     },
     // when window width is >= 640px
-    640: {
+    767: {
       slidesPerView: 4,
-      spaceBetween: 40,
     },
   },
 });

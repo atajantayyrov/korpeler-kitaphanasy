@@ -28,15 +28,18 @@
   font-weight: 400;
 }
 
-.swiper-container {
+.kk-bestsellers__slider {
   border-top: 1px solid #999898;
 }
-.swiper-wrapper {
+.kk-bestsellers__wrapper {
   padding-top: 35px;
 }
-.swiper-slide {
+.kk-bestsellers__slide {
+  min-height: 100%;
+  height: auto;
 }
 .kk-bestsellers__book {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +121,7 @@
   padding: 1px 10px;
 }
 .kk-bestsellers__button-next {
-  padding-left: 10px  ;
+  padding-left: 10px;
 }
 
 .kk-bestsellers__button-next a {
@@ -137,7 +140,6 @@
   height: 50px;
   color: #000000;
   text-decoration: none;
-  top: calc(50% - 25px);
   right: 0;
   z-index: 1;
 }
@@ -161,7 +163,6 @@
   height: 50px;
   color: #000000;
   text-decoration: none;
-  top: calc(50% - 25px);
   left: 0;
   z-index: 1;
   font-size: 20px;
@@ -171,13 +172,33 @@
 }
 @media (max-width: 991px) {
   .kk-bestsellers__book-photo {
-    height: 242px;
+    height: 202px;
   }
   .kk-bestsellers__book-title {
     font-size: 16px;
   }
 }
 @media (max-width: 767px) {
+  .kk-bestsellers__book-photo {
+    height: 142px;
+  }
 }
 @media (max-width: 575px) {
+  .kk-bestsellers__title h2 {
+    font-size: 20px;
+  }
+  .kk-bestsellers__button-next a {
+    width: 30px;
+    height: 30px;
+  }
+  .kk-bestsellers__button-prev a {
+    width: 30px;
+    height: 30px;
+  }
+  .kk-bestsellers__button-next i {
+    font-size: 14px;
+  }
+  .kk-bestsellers__button-prev i {
+    font-size: 14px;
+  }
 }

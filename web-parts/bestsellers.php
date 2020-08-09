@@ -10,12 +10,11 @@
                     <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
                     </a>
                 </div>      
-               
             </div>
         </div>
         <div class="swiper-container kk-bestsellers__slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
+            <div class="kk-bestsellers__wrapper swiper-wrapper">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (3).png" alt="toys">
@@ -34,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (4).png" alt="toys">
@@ -53,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">
@@ -72,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (2).png" alt="toys">
@@ -91,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">
@@ -110,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">
@@ -129,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">
@@ -148,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">
@@ -167,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">
@@ -186,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-bestsellers__slide swiper-slide">
                     <div class="kk-bestsellers__book">
                         <div class="kk-bestsellers__book-photo">
                             <img src="img/satylan (1).png" alt="toys">

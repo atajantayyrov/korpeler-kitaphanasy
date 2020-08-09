@@ -2,11 +2,22 @@
 
   <section class="kk-favorites">
       <div class="kk-container">
-          <div class="kk-favorites__h2">
-          <p>Iň halananlar</p></div>
-        <div class="swiper-container kk-favorites">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
+          <div class="kk-favorites__title">
+                <h2>Iň halananlar</h2>
+                <div class="kk-favorites__arrows">
+                    <div class="kk-favorites__button-prev">
+                        <a href="#!"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="kk-favorites__button-next">
+                        <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>      
+                </div>
+          </div>
+        <div class="swiper-container kk-favorites__slider">
+            <div class="kk-favorites__wrapper swiper-wrapper">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (2).png" alt="toys">
@@ -25,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (3).png" alt="toys">
@@ -44,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (4).png" alt="toys">
@@ -63,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -82,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -101,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -120,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -139,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -158,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -177,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="kk-favorites__slide swiper-slide">
                     <div class="kk-favorites__book">
                         <div class="kk-favorites__book-photo">
                             <img src="img/favorite (1).png" alt="toys">
@@ -198,12 +209,7 @@
                 </div>
             </div>
                 <!-- Add Arrows -->
-            <div class="kk-favorites__button-next">
-                <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </a>
-            </div>      
-            <div class="kk-favorites__button-prev"><a href="#!"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-            </div>
+           
         </div>
       </div>
   </section>
