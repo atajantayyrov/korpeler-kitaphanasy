@@ -74,25 +74,21 @@
   max-height: 100%;
 }
 .kk-bestsellers__book-title {
-  color: #ffffffb8;
+  display: block;
+  color: #ffffff;
   font-size: 18px;
-  font-family: "Cairo", sans-serif;
-  font-weight: 100;
-}
-.kk-bestsellers__book-title p {
-  margin: 0;
   line-height: 1;
+  margin-bottom: 2px;
+  text-decoration: none;
 }
-
 .kk-bestsellers__book-author {
-  color: #ffffffb8;
-  font-size: 14px;
-  font-family: "Cairo", sans-serif;
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+  margin-bottom: 4px;
 }
-.kk-bestsellers__book-author p {
-  margin: 0;
-}
-
 .kk-bestsellers__book-price {
   color: #fdc054;
   font-size: 20px;
@@ -172,15 +168,18 @@
 }
 @media (max-width: 991px) {
   .kk-bestsellers__book-photo {
-    height: 202px;
+    height: 200px;
   }
   .kk-bestsellers__book-title {
     font-size: 16px;
   }
 }
 @media (max-width: 767px) {
+  .kk-bestsellers {
+    padding: 40px 0;
+  }
   .kk-bestsellers__book-photo {
-    height: 142px;
+    height: 190px;
   }
 }
 @media (max-width: 575px) {

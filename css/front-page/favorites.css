@@ -1,6 +1,6 @@
 .kk-favorites {
   height: 100%;
-  padding: 47px 0;
+  padding: 60px 0;
 }
 .kk-container {
   position: relative;
@@ -59,22 +59,21 @@
   max-height: 100%;
 }
 .kk-favorites__book-title {
+  display: block;
   color: #5f5f5f;
   font-size: 18px;
-}
-.kk-favorites__book-title p {
   line-height: 1;
-  margin: 0;
+  margin-bottom: 2px;
+  text-decoration: none;
 }
-
 .kk-favorites__book-author {
+  display: block;
   color: #5f5f5f;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+  margin-bottom: 4px;
 }
-.kk-favorites__book-author p {
-  margin: 0;
-}
-
 .kk-favorites__book-price {
   color: #fa283b;
   font-size: 20px;
@@ -97,7 +96,7 @@
 .kk-favorites__button a {
   border-radius: 4px;
   background-color: #002b11;
-  color: #ffffff73;
+  color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -158,12 +157,15 @@
     font-size: 16px;
   }
   .kk-favorites__book-photo {
-    height: 202px;
+    height: 200px;
   }
 }
 @media (max-width: 767px) {
+  .kk-favorites {
+    padding: 40px 0;
+  }
   .kk-favorites__book-photo {
-    height: 142px;
+    height: 190px;
   }
 }
 @media (max-width: 575px) {

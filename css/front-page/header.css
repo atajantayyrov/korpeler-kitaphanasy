@@ -25,7 +25,7 @@ header {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
-.kk-header .kk-container {
+.kk-header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,9 +61,6 @@ header {
 }
 .kk-logo__text a {
   text-decoration: none;
-  /* padding-top: 21px;
-  padding-bottom: 8px;
-  margin-bottom: 3px; */
   font-weight: 700;
   font-family: "Cairo", sans-serif;
 }
@@ -126,13 +123,17 @@ header {
   margin-left: 20px;
   text-decoration: none;
 }
+.kk-nav__buttons {
+  display: flex;
+  align-items: center;
+}
 .kk-nav__button.header-cart-button {
   background-color: #00c853;
 }
 .kk-nav__button.header-search-button {
   background-color: #7c4dff;
 }
-.kk-nav__item a span {
+.kk-nav__button.header-cart-button span {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -180,12 +181,40 @@ header {
   color: #2c2c2c;
   padding-left: 30px;
 }
+#mobileMenu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  z-index: 3;
+}
 
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
-  .kk-mobile-button {
+  #mobileMenu {
     display: flex;
+  }
+  .kk-nav__button {
+    height: 32px;
+    width: 24px;
+    margin: 0;
+    margin-right: 8px;
+  }
+  .kk-nav__button.header-cart-button,
+  .kk-nav__button.header-search-button {
+    background-color: transparent;
+  }
+  .kk-nav__button i {
+    font-size: 20px;
+    color: #616161;
+  }
+  .kk-nav__button.header-cart-button span {
+    top: 20px;
+    left: 12px;
+    font-size: 9px;
+    height: 16px;
+    width: 16px;
   }
   .kk-nav {
     position: fixed;
@@ -195,6 +224,7 @@ header {
     left: -100%;
     top: 0;
     transition: left 0.4s ease-in-out;
+    z-index: 2;
   }
 
   .kk-nav.active {
@@ -204,6 +234,7 @@ header {
   .kk-nav__list {
     flex-direction: column;
     padding: 32px;
+    padding-top: 60px;
   }
   .kk-nav__item {
     padding-bottom: 20px;
@@ -237,8 +268,21 @@ header {
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
+  .kk-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
   .kk-logo__image img {
-    height: 36px;
+    height: 32px;
     width: auto;
+    margin: 0;
+    margin-right: 4px;
+  }
+  .kk-logo__text span:nth-child(1) {
+    font-size: 14px;
+  }
+  .kk-logo__text span:nth-child(2) {
+    font-size: 16px;
   }
 }

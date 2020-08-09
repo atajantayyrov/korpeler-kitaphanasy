@@ -1,14 +1,15 @@
-.kk-advice {
+.kk-book-review {
   background-color: #a3cecb;
+  padding-top: 60px;
 }
-.kk-advice__wrapper {
+.kk-book-review__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.kk-advice__photo {
+.kk-book-review__author-photo {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
@@ -18,13 +19,13 @@
   display: -ms-flexbox;
   display: flex;
 }
-.kk-advice__photo img {
+.kk-book-review__author-photo img {
   width: 100%;
   height: auto;
   position: absolute;
   bottom: 0;
 }
-.kk-advice__item {
+.kk-book-review__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,22 +43,24 @@
   position: relative;
   line-height: 1;
 }
-.kk-advice__item h2 {
+.kk-book-review__text h2 {
   font-size: 60px;
   color: #072755;
-  margin-bottom: 0;
+  margin: 0;
   font-family: "Berkshire Swash", cursive;
-
   font-weight: 500;
 }
-.kk-advice__item p {
-  color: #2c2c2c;
-  width: 482px;
+.kk-book-review__text p {
+  color: #072755;
   padding: 17px 0;
   line-height: 1.3;
   font-weight: 500;
 }
-.kk-advice__img {
+.kk-book-review__book {
+  display: flex;
+  align-items: flex-end;
+}
+.kk-book-review__book-image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,85 +68,94 @@
   -ms-flex-align: center;
   align-items: center;
 }
-.kk-advice__img img {
+.kk-book-review__book-image img {
   width: 165px;
   height: 219px;
 }
-.kk-advice__text {
+.kk-book-review__book-details {
   text-align: left;
-  margin-left: 19px;
-  padding-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-.kk-advice__text p {
+.kk-book-review__book-title,
+.kk-book-review__book-price {
+  display: block;
   font-family: "Cairo", sans-serif;
-  width: 100%;
   font-size: 20px;
   color: #000000;
-  font-weight: 900;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 20px;
-  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-decoration: none;
+  line-height: 1.3;
 }
-.kk-advice__w {
+.kk-book-review__book-author {
+  display: block;
   font-size: 14px;
   color: #000000;
-  margin: 0;
   font-weight: 300;
+  margin-bottom: 8px;
+  text-decoration: none;
 }
-.kk-advice__text a {
+.kk-book-review__button {
+  display: inline-block;
   border-radius: 4px;
   background-color: #002b11;
-  color: #ffffff73;
+  color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1px 10px;
+  padding: 10px 12px;
+  margin-top: 4px;
 }
 
 @media (max-width: 1199px) {
 }
 @media (max-width: 991px) {
-  .kk-advice__photo {
+  .kk-book-review__author-photo {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .kk-advice__item {
+  .kk-book-review__content {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .kk-advice__photo img {
+  .kk-book-review__author-photo img {
     position: relative;
-  }
-  .kk-advice__item p {
-    width: 100%;
   }
 }
 @media (max-width: 767px) {
+  .kk-book-review {
+    padding-top: 40px;
+  }
 }
 @media (max-width: 575px) {
-  .kk-advice__text {
+  .kk-book-review__text {
     padding-top: 10px;
-    text-align: center;
     padding-bottom: 20px;
   }
-  .kk-advice__item p {
-    text-align: center;
+  .kk-book-review__text p {
+    margin: 0;
   }
-  .kk-advice__item {
-    text-align: center;
-  }
-  .kk-advice__item h2 {
+  .kk-book-review__content h2 {
     font-size: 40px;
   }
-  .kk-advice__img {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+  .kk-book-review__book {
     flex-direction: column;
+  }
+  .kk-book-review__book-image {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 12px;
+  }
+  .kk-book-review__book-image img {
+    width: 100%;
+    height: auto;
+  }
+  .kk-book-review__book-details {
+    text-align: center;
   }
 }

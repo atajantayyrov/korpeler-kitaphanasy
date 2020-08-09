@@ -2,23 +2,25 @@
 <div class="kk-footer">
     <div class="kk-container">
         <div class="kk-footer__wrapper">
-            <div class="kk-footer__logo">
+            <a href="#!" class="kk-footer__logo">
                 <img src="img/logo.png" alt="logo">
-                <p>Körpeler</p>
-                <h2>Kitaphanasy<h2> 
-            </div>
-            <div class="kk-footer__text">
-                <p>Kitaplar</p>
-                <p>Oýunlar</p>
-                <p>Egin Eşikler</p>
-                <p>Oýunjaklar</p>
-            </div>
-            <div class="kk-footer__text2">
-                <p>Ertekiler</p>
-                <p>Okuwa taýynlyk</p>
-                <p>Rowaýatlar</p>
-                <p>Muny bilmek gyzykly</p>
-            </div>
+                <span class="kk-footer__logo-text">
+                    <span>Körpeler</span>
+                    <span>Kitaphanasy<span> 
+                </span>
+            </a>
+            <ul class="kk-footer__menu">
+                <li><a href="#!">Kitaplar</a></li>
+                <li><a href="#!">Oýunlar</a></li>
+                <li><a href="#!">Egin Eşikler</a></li>
+                <li><a href="#!">Oýunjaklar</a></li>
+            </ul>
+            <ul class="kk-footer__menu">
+                <li><a href="#!">Ertekiler</a></li>
+                <li><a href="#!">Okuwa taýynlyk</a></li>
+                <li><a href="#!">Rowaýatlar</a></li>
+                <li><a href="#!">Muny bilmek gyzykly</a></li>
+            </ul>
             <div class="kk-footer__icon">
                 <div class="kk-footer__icon-wrapper">
                 <a href="#!"><i class="fa fa-whatsapp" aria-hidden="true"></i>
@@ -37,6 +39,6 @@
     </div>
 </div>
 <div class="kk-copyrights">
-    <p>Copyright © 2020</p>
+    <p>Copyright <i class="fa fa-copyright"></i> 2020</p>
 </div>
 </footer>

@@ -19,10 +19,10 @@
       <?php include 'web-parts/favorites.php'; ?>
       <?php include 'web-parts/bestsellers.php'; ?>
       <?php include 'web-parts/categories.php'; ?>
-      <?php include 'web-parts/advice.php'; ?>
-      <?php include 'web-parts/advicemenu.php'; ?>
-      <?php include 'web-parts/mainbook.php'; ?>
-      <?php include 'web-parts/games.php'; ?>
+      <?php include 'web-parts/book-review.php'; ?>
+      <?php include 'web-parts/category-list.php'; ?>
+      <?php include 'web-parts/editor-selection.php'; ?>
+      <?php include 'web-parts/advertisement.php'; ?>
       <?php include 'web-parts/contactus.php'; ?>
     </main>
     <?php include 'web-parts/footer.php'; ?>
