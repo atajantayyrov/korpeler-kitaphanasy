@@ -1,5 +1,3 @@
-
-
 .kk-bestsellers {
   height: 100%;
   position: relative;
@@ -10,23 +8,31 @@
   padding: 60px 0;
 }
 .kk-container {
+  position: relative;
 }
-.kk-bestsellers__h2 {
-  font-size: 30px;
+.kk-bestsellers__arrows {
+  display: flex;
+  padding-bottom: 10px;
+}
+.kk-bestsellers__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: #ffffff;
   font-family: "Berkshire Swash", cursive;
 }
-.kk-bestsellers__h2 p {
+.kk-bestsellers__title h2 {
   padding-top: 0;
-
-  border-bottom: 1px solid #999898;
-  padding-bottom: 10px;
+  font-size: 30px;
+  margin: 0;
   font-weight: 400;
 }
 
 .swiper-container {
+  border-top: 1px solid #999898;
 }
 .swiper-wrapper {
+  padding-top: 35px;
 }
 .swiper-slide {
 }
@@ -112,6 +118,7 @@
   padding: 1px 10px;
 }
 .kk-bestsellers__button-next {
+  padding-left: 10px  ;
 }
 
 .kk-bestsellers__button-next a {
@@ -130,8 +137,7 @@
   height: 50px;
   color: #000000;
   text-decoration: none;
-  position: absolute;
-  top: 142px;
+  top: calc(50% - 25px);
   right: 0;
   z-index: 1;
 }
@@ -155,8 +161,7 @@
   height: 50px;
   color: #000000;
   text-decoration: none;
-  position: absolute;
-  top: 142px;
+  top: calc(50% - 25px);
   left: 0;
   z-index: 1;
   font-size: 20px;

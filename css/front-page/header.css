@@ -236,4 +236,8 @@ header {
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
+  .kk-logo__image img {
+    height: 36px;
+    width: auto;
+  }
 }

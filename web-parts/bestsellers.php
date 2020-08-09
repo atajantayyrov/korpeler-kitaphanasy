@@ -1,7 +1,18 @@
 <section class="kk-bestsellers">
       <div class="kk-container">
-          <div class="kk-bestsellers__h2">
-          <p>Iň Kän Satylanlar</p></div>
+          <div class="kk-bestsellers__title">
+            <h2>Iň Kän Satylanlar</h2>
+            <div class="kk-bestsellers__arrows">
+            <div class="kk-bestsellers__button-prev">
+                    <a href="#!"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                </div>
+                <div class="kk-bestsellers__button-next">
+                    <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </div>      
+               
+            </div>
+        </div>
         <div class="swiper-container kk-bestsellers__slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -196,12 +207,7 @@
                 </div>
             </div>
                 <!-- Add Arrows -->
-            <div class="kk-bestsellers__button-next">
-                <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
-                </a>
-            </div>      
-            <div class="kk-bestsellers__button-prev"><a href="#!"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-            </div>
-        </div>
+        
+        </div> 
       </div>
   </section>
