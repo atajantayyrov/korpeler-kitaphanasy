@@ -284,4 +284,8 @@
     max-width: 100%;
     padding-bottom: 14px;
   }
+  .kk-footer__logo img {
+    width: 196px;
+    height: auto;
+  }
 }
