@@ -12,9 +12,16 @@
                     </a>
                 </div>
             </div>
-            <a href="#!" class="kk-mobile-button" id="mobileButton">
-          <i class="fa fa-bars" aria-hidden="true"></i>
+            <a id="rsHeadermobileMenuButton" class="rs-header__mobile-menu-button">
+            <span class="menu-bars">
+              <span class="menu-bars__item"></span>
+              <span class="menu-bars__item"></span>
+              <span class="menu-bars__item"></span>
+            </span>
           </a>
+            <!-- <a href="#!" class="kk-mobile-button" id="mobileButton">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          </a> -->
             <nav class="kk-nav" id="kkNav">
                 <ul class="kk-nav__list">
                     <li class="kk-nav__item">
@@ -39,7 +46,7 @@
                         </a>
                     </li>
                     <li class="kk-nav__item kk-nav_close"><a href="#!" class="kk-nav__link" id="closeNav">
-               <i class="fa fa-times" aria-hidden="true"></i>
+               <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
               </a></li>
                 </ul>
             </nav>

@@ -80,9 +80,20 @@ var mainSlider = new Swiper(".main-slider", {
   },
 });
 
-document.getElementById("mobileButton").onclick = function () {
-  document.getElementById("kkNav").classList.add("active");
-};
-document.getElementById("closeNav").onclick = function () {
-  document.getElementById("kkNav").classList.remove("active");
-};
+// document.getElementById("mobileButton").onclick = function () {
+//   document.getElementById("kkNav").classList.add("active");
+// };
+// document.getElementById("closeNav").onclick = function () {
+//   document.getElementById("kkNav").classList.remove("active");
+// };
+
+/* Mobile hamburger button animation + open mobile menu */
+$("#rsHeadermobileMenuButton").click(function () {
+  $(this).find(".menu-bars").toggleClass("menu-bars_open");
+  $("#rsHeadernavSearch").toggleClass("show");
+  $("#headerCartContent").removeClass("active");
+  $("#kkNav").toggleClass("active");
+
+  $("#rsHeaderContent").toggleClass("rs-header__menu-opened");
+  $("body").toggleClass("overflow");
+});

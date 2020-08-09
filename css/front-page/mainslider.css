@@ -124,13 +124,19 @@
     width: 30px;
     height: 30px;
     font-size: 15px;
+    top: 110px;
   }
   .kk-mainslider__button-prev a {
     width: 30px;
     height: 30px;
     font-size: 15px;
+    top: 110px;
   }
   .kk-mainslider__book-photo img {
     padding: 0 5px;
+  }
+  .kk-mainslider__book-photo,
+  .kk-mainslider__book-photo img {
+    height: 220px;
   }
 }
