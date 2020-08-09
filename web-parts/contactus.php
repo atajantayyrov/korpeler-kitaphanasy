@@ -21,13 +21,13 @@
                         <input class="contactus-form__input" id="firstName" name="book-name" type="text" placeholder="Kitabyň ýazyjysy">
                     </div>
                     <div class="kk-contactus__col">
-                        <div class="contactus-form__select-with-button">
+                        <div class="contactus-form__select-with-button custom-select">
                             <select class="contactus-form__select" name="services" id="services">
                                 <option value="0">Gyzyklandyrýan hyzmat</option>
                                 <option value="website">Web site</option>
                                 <option value="dizayn">Dizayn</option>
                             </select>
-                           <a href="#!"> <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                           <!-- <a href="#!"> <i class="fa fa-chevron-down" aria-hidden="true"></i></a> -->
                         </div>
                     </div>
                     <div class="kk-contactus__col">

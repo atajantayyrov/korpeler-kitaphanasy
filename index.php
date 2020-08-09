@@ -28,6 +28,8 @@
     <?php include 'web-parts/footer.php'; ?>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/custom-select.js"></script>
+
 
   </body>
 </html>

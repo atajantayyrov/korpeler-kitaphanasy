@@ -1,4 +1,6 @@
 @import url(../css/common/buttons.css);
+@import url(../css/common/custom-select.css);
+
 @import url(../css/front-page/layout.css);
 @import url(../css/front-page/header.css);
 @import url(../css/front-page/mainslider.css);
